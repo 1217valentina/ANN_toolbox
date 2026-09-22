@@ -3,11 +3,14 @@
 // Curso: Matemática & Simulación con Software Científico
 // ============================================================================
 
-// 1. CARGA OBLIGATORIA DE LIBRERÍA AL INICIO (EVITA ERROR DE VARIABLE UNDEFINED)
+// 1. CARGA OBLIGATORIA DE LIBRERÍA AL INICIO
 atomsLoad("ANN_Toolbox");
 
 clear;
 clc;
+
+// Cambiar automáticamente al directorio donde está guardado este script
+cd(get_absolute_file_path("ANN_Energia_MSEconv.sce"));
 
 // ----------------------------------------------------------------------------
 // FASE 1: CARGA DE DATOS Y TRANSPOSICIÓN MATRICIAL
